@@ -1,0 +1,23 @@
+.services .items {
+  display: block;
+
+}
+
+.about {
+  display: block;
+}
+
+.investing-text {
+  display: block;
+}
+
+.item {
+  margin-bottom: 1rem;
+}
+
+@media(max-width:500px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}

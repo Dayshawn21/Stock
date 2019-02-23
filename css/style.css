@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+/* utily classes */
+
+.l-heading {
+  font-size: 4rem;
+}
+
+.m-heading {
+  font-size: 2rem;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  background: #333333;
+  color: #f4f4f4;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar ul a {
+  margin: 0.25rem;
+  padding: 0.5rem;
+  color: #f4f4f4;
+}
+
+.navbar ul a:hover {
+  background: blue;
+}
+
+/* showcase */
+.showcase {
+  background: #333 url("../img/money-growth-investment-seed-ss-1920_cu6w9a.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.about {
+  display: flex;
+  background: #333;
+  margin-top: 3rem
+}
+
+
+.me-img {
+  background: url('/img/multi-ethnic-group-of-three-businesspeople-meeting-in-a-modern-office-two-caucasian-women-and-a-black-man-wearing-suit-looking-at-a-laptop-computer_1139-966.jpg') no-repeat center center/cover;
+  flex: 1;
+}
+
+.about-text {
+  text-align: center;
+  color: #fff;
+  flex: 1
+}
+
+.services {
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+
+
+.items i {
+  align-self: center;
+}
+
+.investing-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+}
+
+.investing h1 {
+  font-size: 3.5rem
+}
+
+
+.investing ul {
+  list-style: none
+}
+
+.contact {
+  background: #333;
+  color: #fff;
+}
+
+.contact .contact-form .form-group {
+  margin: .75rem
+}
+
+.contact .contact-form label {
+  display: block;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+  width: 75%;
+  padding: 0.5rem;
+}
+
+footer {
+  border-top: #fff solid 1px;
+  background: #333;
+  color: #fff;
+}
